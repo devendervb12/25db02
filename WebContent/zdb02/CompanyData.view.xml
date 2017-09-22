@@ -1,0 +1,11 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zdb02.CompanyData" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Company Details">
+		<content>
+	        <Label text="Name"/>
+	        <Input id="idCmpName" value="{/companyInfo/name}"/>
+	        <Label text="Address"/>
+	        <Input id="idCmpAddr" value="{/companyInfo/address}"/>
+		</content>
+	</Page>
+</core:View>
